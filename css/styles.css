@@ -1,0 +1,84 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*propiedades del div caja*/
+/*
+.caja{
+    border: 3px solid black;
+    margin: 2rem;
+    background-image: linear-gradient(to right, red, yellow);
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+    
+}
+
+.caja:hover{
+    background-image: linear-gradient(to right, yellow, red);
+    transform:rotate(180deg);
+
+}*/
+
+
+/*
+section{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+
+@keyframes un_efecto{
+    0%{ width: 100px; }
+    0.2s{ width:50px; }
+    25%{ width: 300px; }
+    50%{ width: 200px;
+        background-color: red; }
+    75%{ width: 300px; }
+    100%{ width: 100px;
+        background-color:green;
+    }
+    
+}
+*/
+
+.luna{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+.luna img{
+    width: 30%;
+    
+}
+
+.girar{
+    animation-name: luna-gira;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes luna-gira{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
